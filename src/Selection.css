@@ -1,0 +1,79 @@
+/* Selection.css */
+
+.phonebook {
+  display: grid;
+  /* flex-wrap: wrap;  */
+  grid-template-columns: 2fr;
+  justify-content: space-between; /* Distribute items evenly */
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 500px; /* Adjust as needed */
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  grid-gap: 20px; /* Gap between grid items */
+}
+
+#myInput {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#myUL {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Add spacing between items */
+  width: calc(25% - 20px); /* 4 columns (adjust for spacing) */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  /* Tablet Layout - 2 Columns */
+  .contact-item {
+    width: calc(50% - 10px); /* 2 columns (adjust for spacing) */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile Layout - 1 Column */
+  .contact-item {
+    width: 100%; /* Full width on mobile */
+  }
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); Two columns */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px; /* Gap between grid items */
+}
+
+
+
+
+img {
+  width: 80px; 
+  height: 80px; 
+
+}

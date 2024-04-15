@@ -1,0 +1,21 @@
+.header {
+  border-color: rgba(51, 48, 48, 0.411);
+}
+
+.logo-container {
+  float: left; /* Align to the left */
+  padding: 10px;
+}
+
+.flogo1 {
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+
+.flogo {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px; /* Add some space between the logos */
+}

@@ -1,0 +1,23 @@
+/* Add this CSS to your existing Location.css file */
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the location items horizontally */
+}
+
+.location-item {
+  width: 100%; /* Ensure the location item occupies full width */
+}
+
+.location-item iframe {
+  width: 100%; /* Make the iframe responsive */
+  max-width: 100%; /* Ensure iframe does not exceed container width */
+  height: 800px; /* Allow iframe to adjust its height accordingly */
+}
+
+@media (max-width: 768px) {
+  .location-item {
+    margin-bottom: 20px; /* Add spacing between location items on smaller screens */
+  }
+}

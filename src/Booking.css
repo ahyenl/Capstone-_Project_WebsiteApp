@@ -1,0 +1,45 @@
+.book-payment{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 40px;
+}
+
+#payment{
+    height: 50px;
+    background-color: rgba(4, 54, 85, 0.842);
+   margin-top: 40px;
+   /* margin: 0 auto; */
+   /* display: flex; */
+   justify-content: center;
+}
+
+#payment a{
+    color: white;
+    text-decoration: none;
+
+}
+
+@media (max-width: 768px) {
+    .book-payment {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .book-payment table {
+      width: 100%;
+    }
+  
+    .book-payment tr {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .book-payment th, .book-payment td {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }

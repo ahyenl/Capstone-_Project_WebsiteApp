@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Mansalva&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Caveat+Brush&family=Handlee&family=Macondo+Swash+Caps&family=Mansalva&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.grid-extra {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust minmax values as needed */
+    gap: 20px; /* Adjust gap between grid items */
+    border-radius: 30px 30px 30px 30px;
+  }
+  
+  .serviceitem {
+    background-color: #ddd;
+    animation: mymove1 5s infinite;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    height:180px;
+  }
+
+  .serviceitem1 {
+    background-color: rgba(0, 0, 0, 0.596);
+    animation: mymove2 5s infinite;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    height: 180px;
+  }
+
+
+  p.text-para{
+    font-family:"Handlee", cursive;
+
+
+  }
+
+  .img-extra{
+    width: 60px;
+    height: 50px;
+  }
+
+  @keyframes mymove1 {
+    from {background-color: #ddd;}
+    to {background-color: rgba(0, 0, 0, 0.596)}
+     
+     
+  }
+  @keyframes mymove2 {
+    from {background-color:rgba(0, 0, 0, 0.596)}
+    to {background-color:#ddd;}
+  }
+  
+
+  /* Media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust minmax values for tablet */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust minmax values for mobile */
+    }
+  }
+  

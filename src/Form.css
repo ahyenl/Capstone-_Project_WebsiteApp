@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Mansalva&display=swap');  
+
+
+.auth-container {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* height: 100vh; */
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 90%
+  }
+  
+  .auth-card {
+    /* width: 400px; */
+    background-color:#CF7C29;
+    padding: 10px 30px 10px 10px ;
+    border-radius: 10px ;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .info-contact{
+    font-family: Mansalva, sans-serif;
+    color: rgba(252, 249, 249, 0.966);
+
+  }
+
+  .info-label{
+    /* color:rgba(49, 2, 92, 0.959); */
+    font-family:"Handlee", cursive;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .auth-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .auth-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .auth-buttons {
+    display: flex;
+  }
+  
+  .auth-button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .auth-button.active {
+    /* background-color: #04AA6D; */
+    color: #fff;
+    background-color: #333333b4;
+  }
+  
+  .auth-form {
+    /* display: flex; */
+    flex-direction: column;
+  }
+  
+  .auth-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .auth-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 500px;
+    margin-bottom: 10px;
+  }
+  
+  .auth-form button {
+    padding: 10px;
+    background-color: white;
+    color: rgba(2, 22, 34, 0.884);
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+
+  a.log_in {
+    padding: 10px;
+    background-color: white;
+    color: rgba(2, 22, 34, 0.884);
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top: 5px;
+
+  }
+
+  span{
+    color: white;
+  }
+  
+  label{
+    color: black;
+    font-size: small;
+  }
+
+  .textmsg input{
+    height: 200px;
+    width: 500px;
+  }
+
+   textarea.subj{
+    height: 90px;
+  }
+
+
+  /* Add this CSS to your existing Form.css file */
+
+.auth-form input[type="text"],
+.auth-form input[type="email"],
+.auth-form input[type="tel"],
+.auth-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.auth-form button {
+  padding: 10px;
+  background-color: white;
+  color: rgb(34, 1, 65);
+  /* color: rgba(2, 22, 34, 0.884); */
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  width: 100%; /* Make the button full width */
+}
+
+/* Adjust textarea height */
+.auth-form textarea {
+  height: 150px; /* Adjust as needed */
+}
+
+@media (min-width: 768px) {
+  /* Tablet and desktop styles */
+
+  .auth-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; /* Limit the width on larger screens */
+  }
+
+  .auth-form input[type="text"],
+  .auth-form input[type="email"],
+  .auth-form input[type="tel"],
+  .auth-form textarea {
+    width: 100%; /* Make the inputs full width */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Desktop styles */
+
+  .auth-form input[type="text"],
+  .auth-form input[type="email"],
+  .auth-form input[type="tel"],
+  .auth-form textarea {
+    max-width: 500px; /* Limit the width on larger screens */
+  }
+}

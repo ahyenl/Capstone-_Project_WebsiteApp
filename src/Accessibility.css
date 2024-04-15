@@ -1,0 +1,53 @@
+/* Styles for the container */
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  /* Styles for the select elements */
+  select {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  /* Styles for the paragraph and button */
+  .content {
+    margin-top: 20px;
+  }
+  
+  /* Default color and font size */
+  .content p,
+  .content button {
+    color: #000000;
+    font-size: 16px;
+  }
+  
+  /* High contrast color */
+  .content.high-contrast p,
+  .content.high-contrast button {
+    color: #ffffff;
+  }
+  
+  /* Small font size */
+  .content.small-text p,
+  .content.small-text button {
+    font-size: 14px;
+  }
+  
+  /* Large font size */
+  .content.large-text p,
+  .content.large-text button {
+    font-size: 18px;
+  }
+  
+  /* Styles for the button */
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

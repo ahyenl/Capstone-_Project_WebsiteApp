@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Mansalva&display=swap');  
+
+
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin: 0; */
+    padding: 0;
+
+}
+  
+.text-content{
+    color: #CF7C29;
+    font-family: Mansalva, sans-serif;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: #d9d9d917 ; */
+    /* margin-left: 21px;
+    margin-right: 22px; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; /* Adjust max-width according to your design */
+   
+}
+  
+.trailertext h2{
+    /* margin-top: 80px;  */
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-size: 30px;
+    color: #B22E2A;
+    letter-spacing: 5px;
+}
+
+
+
+.trailertext2{
+    /* margin-top: 40px;  */
+    margin-bottom: 40px;
+    font-size: medium;
+    color: #B22E2A;
+    font-family: 'Luckiest Guy';
+}
+
+
+.showing{
+    color: black;
+    float: left;
+    letter-spacing: 5px;
+    font-size: larger;
+    margin-right: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.logos img{
+    width: 35px;
+    height: 35px;
+
+}
+
+textarea{
+    height: 200px;
+    width: 100%; /* Adjust width for responsiveness */
+    max-width: 350px; /* Set max-width for larger screens */
+}
+
+form {
+    max-width: 500px; /* Adjust max-width according to your design */
+    margin: 0 auto;
+}
+
+button {
+    width: 100%;
+}
+
+.contact-message {
+    text-align: center;
+    margin-top: 10px;
+    color: red; /* Error message color */
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    textarea {
+        width: 100%;
+        max-width: none;
+    }
+
+    .content-container {
+        flex-direction: column;
+    }
+}

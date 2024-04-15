@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Mansalva&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Caveat+Brush&family=Handlee&family=Macondo+Swash+Caps&family=Mansalva&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.item img {
+    width: 100%; /* Set the width to 100% for responsiveness */
+    max-width: 550px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 25px; 
+    display: block;
+    margin: auto;
+}
+
+.text-about{
+    color: #CF7C29;
+    font-family: Mansalva, sans-serif;
+    font-size: 28px;
+   text-align: center;
+    /* background-color: rgba(155, 67, 238, 0.507); */
+
+}
+
+.para-about{
+    font-family:"Handlee", cursive;
+    font-size: 16px;
+    
+}
+
+.para-about1{
+    font-family:"Handlee", cursive;
+}
+
+@media (max-width: 768px) {
+    .item img {
+        max-width: 80%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .item img {
+        max-width: 100%; 
+    }
+}
